@@ -19,12 +19,12 @@
         padding: 6rem;
         display: flex;
         flex-direction: column;
-        text-align: center;
-
+        
         @include respond(phone){
             width: 100%;
             order: 2;
             padding: 2rem;
+            text-align: center;
             // align-content: center;
         }
     }
