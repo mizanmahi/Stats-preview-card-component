@@ -4,3 +4,22 @@
 @import "base/base";
 
 @import "component/card";
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    &__link {
+        color: #aa5cda;
+        text-decoration: none;
+        font-size: 1.4rem;
+        display: inline-block;
+        transition: all .2s;
+        &:hover,
+        &:active{
+            transform: rotate(5deg);
+            box-shadow: 0 1rem 15rem rgba($color: #000000, $alpha: .4);
+        }
+      }
+  }
+
